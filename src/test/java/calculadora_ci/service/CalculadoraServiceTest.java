@@ -10,7 +10,8 @@ class CalculadoraServiceTest {
 
     @Test
     void deveSomar() {
-        assertEquals(10, service.somar(5,3));
+        
+        assertEquals(8, service.somar(5,3));
     }
 
     @Test
